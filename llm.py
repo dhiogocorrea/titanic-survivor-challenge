@@ -9,7 +9,7 @@ from langchain_openai import ChatOpenAI
 from langchain.chains import create_qa_with_structure_chain
 from langchain.prompts.prompt import PromptTemplate
 
-
+# CRIAR UM .ENV COM A CHAVE OPENAI_APIKEY=<sua_chave>
 load_dotenv()
 openai_key = os.environ.get('OPENAI_APIKEY', None)
 

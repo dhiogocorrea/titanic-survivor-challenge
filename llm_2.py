@@ -10,6 +10,7 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.messages import HumanMessage, AIMessage
 
 
+# CRIAR UM .ENV COM A CHAVE OPENAI_APIKEY=<sua_chave>
 load_dotenv()
 openai_key = os.environ.get('OPENAI_APIKEY', None)
 
